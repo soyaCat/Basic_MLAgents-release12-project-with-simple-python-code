@@ -33,13 +33,13 @@ This is my environment
 
 unity-project folder has unity project that can use with this repogistorys python code. 
 Due to capacity problem, I'm using .gitignore file to reduce repogistory size. 
-you can use this project by import "\unity-project\FallingStar\Assets\ML-Agents\Examples\FallingStar" to your unity project
+you can use this project by import "\unity-project\FallingStar\Assets\ML-Agents\Examples\FallingStar\scripts" to your unity project
 
 **test_mlAgents.py**
 
 You can get information about How to communicate with unity ML-Agents Environment. This code include 
 some method how to get Agent information, how to send action to unity ml_agents, how to get observation from agent...ect. 
-you can understand how to connect with ML-Agent, By reading this code and unity-projects C# code that located "\unity-project\FallingStar\Assets\ML-Agents\Examples\FallingStar". 
+you can understand how to connect with ML-Agent, By reading this code and unity-projects C# code that located "\unity-project\FallingStar\Assets\ML-Agents\Examples\FallingStar\scripts". 
 
 if you run this code, please set game directory before run this code
 ```python
