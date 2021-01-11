@@ -33,7 +33,7 @@ This is my environment
 
 unity-project folder has unity project that can use with this repogistorys python code. 
 Due to capacity problem, I'm using .gitignore file to reduce repogistory size. 
-you can use this project by import "\unity-project\FallingStar\Assets\ML-Agents\Examples\FallingStar\scripts" to your unity project
+you can use this project by import "\unity-project\FallingStar\Assets\ML-Agents\Examples\FallingStar" to your unity project
 
 **test_mlAgents.py**
 
