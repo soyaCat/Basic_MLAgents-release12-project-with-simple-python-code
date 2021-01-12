@@ -39,7 +39,7 @@ class StringLogChannel(SideChannel):
 string_log = StringLogChannel()
 
 # We start the communication with the Unity Editor and pass the string_log side channel as input
-game = "D:/program/unity/project/FallingStar/Build/FallingStar.exe"
+game = "/unity-project/FallingStar/Build/FallingStar.exe"
 env = UnityEnvironment(file_name= game, side_channels=[string_log])
 env.reset()
 string_log.send_string("The environment was reset")

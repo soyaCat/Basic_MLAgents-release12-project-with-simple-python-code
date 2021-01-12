@@ -45,7 +45,7 @@ def get_reward(behavior_name):
     return reward, tr_reward
 
 if __name__ == "__main__":
-    game = "D:/program/unity/project/FallingStar/Build/FallingStar.exe"
+    game = "/unity-project/FallingStar/Build/FallingStar.exe"
 
     env = UnityEnvironment(file_name = game)
     env_info=env.reset()
