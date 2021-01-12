@@ -63,4 +63,24 @@ if you want to run this code, Dont forget set game directory to run this code
 game = YOUR GAME DIRECTORY
 ```
 
+---
+
+**How to use it?**
+
+you have to install ML-Agent to run and edit this code
+
+please follow this link guide: https://github.com/Unity-Technologies/ml-agents/blob/release_12_docs/docs/Installation.md
+
+1. if you finish installation, please make new unity project and install com.unity.ml-agents to that project. you have to install com.unity.ml-agents.extentions to run this
+2. import this repogitorys asset which is located "\unity-project\FallingStar\Assets\ML-Agents\Examples\FallingStar" to your new project
+3. open scene of this asset and bulid game, I build it "\unity-project\FallingStar\Build\" already, but I recommend you to build this game again
+4. To run python code, set game directory in python code
+```python
+game = YOUR GAME DIRECTORY
+```
+5. you can run python code, with ML_Agent game!
+
+
+
+
 
